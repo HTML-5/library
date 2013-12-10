@@ -1,0 +1,49 @@
+1. Добавляем классы к уникальным html5 тегам
+
+<header class="header"></header>
+<nav class="nav"></nav>
+<footer class="footer"></footer>
+<aside class="aside"></aside>
+...
+
+2. Картинки с описанием делаем через конструкцию figure
+
+<figure>
+	<img src="" alt=""/>
+	<figcaption>текст картинки</figcaption>
+</figure>
+
+3. Картинки оборачиваем в <figure>
+Исключения состовляют карусели, слайдеры, лого.
+http://html5doctor.com/the-figure-figcaption-elements/
+
+4. Повторяющиеся элементы (items) делаем через <ul><li></li>...</ul>
+
+Для выравнивания списков используем flexbox
+http://habrahabr.ru/post/153925/
+http://css-tricks.com/snippets/css/a-guide-to-flexbox/
++ хаки для IE 
+
+5. В формах у input прописываем type  
+
+http://htmlbook.ru/html/input/type
+http://html5doctor.com/html5-forms-input-types/
+
+6. Все личные и контактные данные помечаем схемами
+
+http://schema.org/docs/schemas.html
+http://help.yandex.ru/webmaster/schema-org/what-is-schema-org.xml
+используем <span> для обертки, как в примерах
+
+7. Контактную информацию оборачиваем в тег <address>
+
+8. Скрипты запускаем через классы
+
+конструкция: js-название_класса_скрипта
+<div class="slider js-slider">...</div>
+
+9. Тег <h1> должен быть всегда один на странице
+
+10. Валидация
+
+11. Тестируем в разных браузерах, в т.ч. IE7, IE8 (graceful degradation)
